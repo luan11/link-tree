@@ -29,7 +29,7 @@ export const Link = ({
     <a
       href={url}
       target="_blank"
-      style={{ [`--color`]: backgroundColor }}
+      style={{ [`--color`]: backgroundColor } as React.CSSProperties}
       className={twMerge(
         `py-[0.875rem] px-[1.125rem] rounded-2xl shadow-lg gap-2 flex items-center justify-center text-secondary bg-[var(--color)] transition-transform hover:scale-110 duration-500`,
         highlighted &&
