@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar {
+  @apply scroll-smooth;
+}
+
+.scrollbar::-webkit-scrollbar {
+  @apply w-2.5;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  @apply bg-primary-0 rounded-xl;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-primary-1 rounded-xl border-2 border-solid border-primary-0;
+}
