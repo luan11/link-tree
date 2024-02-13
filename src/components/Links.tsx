@@ -44,9 +44,12 @@ export const Links = () => {
           <EmptyLink />
         </>
       )}
+
       {!isLoading &&
         !anErrorOccurred &&
         data.map((link) => <LinkComponent key={link.url} {...link} />)}
+
+      {!isLoading && anErrorOccurred && <p>Nenhum link encontrado...</p>}
     </div>
   );
 };
