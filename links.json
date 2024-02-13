@@ -1,10 +1,17 @@
 [
   {
+    "backgroundColor": "#f97316",
+    "url": "https://luancode.notion.site/Criando-uma-Landing-Page-do-ZERO-com-HTML-e-CSS-beb617fe4e5e41ad9d974a6a958f230c?pvs=4",
+    "iconName": "Bookmark",
+    "title": "Crie sua própria Landing Page do ZERO com HTML e CSS",
+    "highlighted": true
+  },
+  {
     "backgroundColor": "#dc2626",
     "url": "https://youtube.com/@luancode?si=-xGqgutXMkUiD3WE",
     "iconName": "Youtube",
     "title": "Clique e inscreva-se no canal do Youtube",
-    "highlighted": true
+    "highlighted": false
   },
   {
     "backgroundColor": "#db2777",
