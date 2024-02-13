@@ -36,7 +36,7 @@ export const Links = () => {
   }, []);
 
   return (
-    <div className="flex flex-col py-6 px-9 rounded-lg shadow-lg bg-primary-0 flex-grow gap-6 overflow-y-auto items-center lg:col-start-4 lg:col-end-10 col-start-1 col-end-13 lg:mx-0 mx-4">
+    <div className="flex flex-col py-6 px-9 rounded-lg shadow-lg bg-primary-0 flex-grow gap-6 overflow-y-auto items-center lg:col-start-4 lg:col-end-10 col-start-1 col-end-13 lg:mx-0 mx-4 relative before:w-1 before:h-full before:content-[''] before:absolute before:left-0 before:right-0 before:top-0 before:mx-auto before:bg-primary-1">
       {isLoading && (
         <>
           <EmptyLink />
