@@ -1,8 +1,15 @@
 [
   {
+    "backgroundColor": "#22c55e",
+    "url": "https://me.luancode.dev.br/?from=linktree.luancode.dev.br",
+    "title": "Meu currículo",
+    "highlighted": true
+  },
+  {
+    "backgroundColor": "#DC2626",
+    "url": "https://youtube.com/@luancode?si=-xGqgutXMkUiD3WE",
     "iconName": "Youtube",
     "title": "Clique e inscreva-se no canal do Youtube",
-    "url": "https://youtube.com/@luancode?si=-xGqgutXMkUiD3WE",
     "highlighted": false
   }
 ]
