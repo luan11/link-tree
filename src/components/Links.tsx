@@ -44,12 +44,16 @@ export const Links = () => {
 
   useEffect(() => {
     if (!!data.length && !!target) {
-      const targetElement = ref.current?.querySelector<HTMLElement>(
-        `#${target}`
-      );
+      try {
+        const targetElement = ref.current?.querySelector<HTMLElement>(
+          `#${target}`
+        );
 
-      ref.current?.scrollTo(0, targetElement?.offsetTop ?? 0);
-      targetElement?.focus();
+        ref.current?.scrollTo(0, targetElement?.offsetTop ?? 0);
+        targetElement?.focus();
+      } catch (error) {
+        console.warn(`Query target element not found`);
+      }
     }
   }, [data.length, target]);
 
