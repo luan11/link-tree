@@ -1,15 +1,30 @@
 [
   {
-    "backgroundColor": "#22c55e",
-    "url": "https://me.luancode.dev.br/?from=linktree.luancode.dev.br",
-    "title": "Meu currículo",
-    "highlighted": true
-  },
-  {
-    "backgroundColor": "#DC2626",
+    "backgroundColor": "#dc2626",
     "url": "https://youtube.com/@luancode?si=-xGqgutXMkUiD3WE",
     "iconName": "Youtube",
     "title": "Clique e inscreva-se no canal do Youtube",
+    "highlighted": true
+  },
+  {
+    "backgroundColor": "#db2777",
+    "url": "https://www.instagram.com/luancode/p/CnPSgNhLDwO/",
+    "iconName": "Instagram",
+    "title": "Aprenda como funciona o bloco try...catch",
+    "highlighted": false
+  },
+  {
+    "backgroundColor": "#db2777",
+    "url": "https://www.instagram.com/luancode/p/CoulT5DOC4M/",
+    "iconName": "Instagram",
+    "title": "Métodos úteis para manipular arrays",
+    "highlighted": false
+  },
+  {
+    "backgroundColor": "#2563eb",
+    "url": "https://www.linkedin.com/in/luan-novais11/",
+    "iconName": "Linkedin",
+    "title": "Meu LinkedIn",
     "highlighted": false
   }
 ]
