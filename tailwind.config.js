@@ -11,17 +11,17 @@ export default {
         secondary: `#F6FFF6`,
       },
       keyframes: {
-        tada: {
+        highlight: {
           from: {
-            transform: `rotate(-6deg)`,
+            boxShadow: `0 0 5px -3px rgba(255,255,255,0.25)`,
           },
           to: {
-            transform: `rotate(6deg)`,
+            boxShadow: `0 0 20px -3px rgba(255,255,255,0.55)`,
           },
         },
       },
       animation: {
-        tada: `tada 350ms ease-in-out alternate 3`,
+        highlight: `highlight 500ms linear alternate infinite`,
       },
     },
   },

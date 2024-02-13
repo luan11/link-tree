@@ -12,7 +12,7 @@ export const Header = () => (
       <img
         src={Tree}
         alt="Árvore"
-        className="absolute transition-all group-hover:animate-bounce"
+        className="absolute transition-all group-hover:animate-spin"
       />
     </figure>
   </header>

@@ -31,9 +31,8 @@ export const Link = ({
       target="_blank"
       style={{ [`--color`]: backgroundColor } as React.CSSProperties}
       className={twMerge(
-        `py-[0.875rem] px-[1.125rem] rounded-2xl shadow-lg gap-2 flex items-center justify-center text-secondary bg-[var(--color)] transition-transform hover:scale-110 duration-500 relative`,
-        highlighted &&
-          `hover:scale-100  hover:animate-tada shadow-[0_10px_15px_-3px_rgba(255,255,255,0.15)]`
+        `py-[0.875rem] px-[1.125rem] rounded-2xl shadow-lg gap-2 flex items-center justify-center text-secondary bg-[var(--color)] transition-transform hover:scale-110 focus:scale-95 duration-500 relative`,
+        highlighted && `border-2 border-secondary animate-highlight`
       )}
     >
       <span>{<Icon size={32} />}</span>
