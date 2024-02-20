@@ -1,5 +1,6 @@
 import {
   BookmarkIcon,
+  DownloadIcon,
   GithubIcon,
   InstagramIcon,
   LinkIcon,
@@ -18,6 +19,7 @@ const availableIcons = {
   Instagram: InstagramIcon,
   Github: GithubIcon,
   Bookmark: BookmarkIcon,
+  Download: DownloadIcon,
 };
 
 export const Link = ({
